@@ -1,0 +1,24 @@
+// Libreries, settings y variables
+@import 'lib/_variables';
+
+// Elements base
+@import './base/botons';
+@import './base/typography';
+
+// Components
+@import './components/grids';
+
+@import './components/utilities';
+
+body {
+  background-color: aquamarine;
+}
+
+.Panel {
+  background-color: #fff;
+  padding: 25px;
+
+  &-destacado {
+    background-color: pink;
+  }
+}
