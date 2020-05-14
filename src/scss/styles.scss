@@ -13,7 +13,7 @@
 
 
 body {
-  background-color: aquamarine;
+  background-color: darken($color-aquamarine, 1%);
 }
 
 .Panel {
@@ -22,7 +22,7 @@ body {
   @include use-max-width($color-grey);
   @include centered;
   @include respond-to(800px) {
-    background-color: $color-grey;
+    background-color: lighten($color-grey, 80%);
     font-size: $basefontsize + 22px;
   }
 
