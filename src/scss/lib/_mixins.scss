@@ -10,3 +10,19 @@
   -o-border-radius: $size;
   border-radius: $size;
 }
+
+// use to content in media query
+@mixin use-max-width($max-width: $page-max-width) {
+	max-width: $max-width;
+}
+
+@mixin centered {
+	margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin respond-to($width) {
+	@media only screen and (min-width: $width) {
+		@content; 
+	}
+}

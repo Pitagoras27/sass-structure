@@ -19,6 +19,12 @@ body {
 .Panel {
   background-color: #fff;
   padding: 25px;
+  @include use-max-width($color-grey);
+  @include centered;
+  @include respond-to(800px) {
+    background-color: $color-grey;
+    font-size: $basefontsize + 22px;
+  }
 
   &-destacado {
     background-color: pink;
