@@ -8,6 +8,7 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  @include border-radius(20px);
 
   &--modifier{
     background-color: white;

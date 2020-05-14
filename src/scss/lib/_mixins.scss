@@ -1,0 +1,12 @@
+@mixin box-emboss($outerOpacity, $innerOpacity) {
+  box-shadow:
+    rgba(white, $outerOpacity) 0 1px 0, 
+    rgba(black, $innerOpacity) 0 1px 0 inset;
+}
+
+@mixin border-radius($size) {
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  -o-border-radius: $size;
+  border-radius: $size;
+}
