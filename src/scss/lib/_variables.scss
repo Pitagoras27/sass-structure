@@ -8,9 +8,12 @@ $color-secondary: rgb(219, 216, 121);
 $color-black: rgb(0,0,0);
 $color-darkblack: #4d4d4d;
 $color-grey: #bfbfbf;
+$grey: lighten(black, 45%);
 $color-white: rgb(255,255,255);
 
 $color-aquamarine: aquamarine;
+
+$bordercolor: color-grey(lightgrey);
 
 // Texturas
 $color-alert: rgb(252,228,207);
@@ -22,5 +25,31 @@ $color-success: rgb(91,183,91);
 $basefont: 'Quicksand', sans-serif;
 $basefontsize: 16px;
 
+$size-vars: (
+  "x-small": .6,
+  "small": .8,
+  "normal": 1,
+  "big": 1.5,
+  "huge": 2
+);
+
 $buttoncolor: $color-white;
 $buttonbackgroundcolor: $color-brand;
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+/**
+ * Constant layout values, apart from these we can also declare values
+ * for different blocks sizes and more.
+ */
+ $baselineheight: 1.5;
+ $gutterwidth: 24px;
+
+ /*------------------------------------*\
+    $FONT-FACE
+\*------------------------------------*/
+/**
+ * Fonts definitions
+ */
+$altfont : Georgia, Times, "Times New Roman";
